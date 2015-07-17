@@ -23,6 +23,7 @@
 @dynamic composing;
 @dynamic timestamp;
 @dynamic streamBareJidStr;
+@dynamic isRead;
 
 #pragma mark Transient message
 
