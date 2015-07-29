@@ -441,20 +441,20 @@ enum XMPPRosterFlags
 **/
 - (BOOL)isRosterItem:(NSXMLElement *)item
 {
-	NSString *subscription = [item attributeStringValueForName:@"subscription"];
-	if ([subscription isEqualToString:@"none"])
-	{
-		NSString *ask = [item attributeStringValueForName:@"ask"];
-		if ([ask isEqualToString:@"subscribe"])
-		{
-			return YES;
-		}
-		else
-		{
-			return NO;
-		}
-	}
-	
+//	NSString *subscription = [item attributeStringValueForName:@"subscription"];
+//	if ([subscription isEqualToString:@"none"])
+//	{
+//		NSString *ask = [item attributeStringValueForName:@"ask"];
+//		if ([ask isEqualToString:@"subscribe"])
+//		{
+//			return YES;
+//		}
+//		else
+//		{
+//			return NO;
+//		}
+//	}
+
 	return YES;
 }
 
